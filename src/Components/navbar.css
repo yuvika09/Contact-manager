@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,400&display=swap');
+
+.main-nav {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav i {
+    margin: 2vh 3vw;
+    font-size: 5vh;
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 10px;
+    font-size: 2.35vh;
+    margin: 2vh;
+
+}
+
+#add-btn {
+    position: relative;
+    right: 150px;
+}
+
+#add-btn i {
+    margin-right: 5px;
+}
+
+.text {
+    font-style: italic;
+    font-size: 2.7vh;
+}
+
+.search-cont {
+    margin: 2vh 8vw;
+}
+
+.search-box {
+    margin-right: 2vw;
+    height: 3vh;
+    width: 17vw;
+    border-radius: 4px;
+}
+
+#search-btn {
+    height: 4.5vh;
+}
+
