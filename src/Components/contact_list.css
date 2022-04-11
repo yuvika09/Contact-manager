@@ -1,5 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-style: italic;
+    font-size: 2.7vh;
+}
+
+.search-cont {
+    margin: 2vh 8vw;
+}
+
+.search-box {
+    margin-right: 2vw;
+    height: 4vh;
+    width: 20vw;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 10px;
+    font-size: 2.35vh;
+    margin: 2vh;
+
+}
+
+#add-btn {
+    position: relative;
+    right: 150px;
+}
+
+#add-btn i {
+    margin-right: 5px;
+}
+
+
+#search-btn {
+    height: 5vh;
+}
+
 .big-cont {
     display: flex;
     padding: 7vh 5vw;
@@ -65,4 +111,3 @@ li {
 .del-details {
     background-color: lightcoral;
 }
-

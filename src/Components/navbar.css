@@ -19,48 +19,11 @@
     font-size: 3vh;
 }
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
+
+#home-btn {
+    color: aliceblue;
 }
 
-.btn {
-    background-color: red;
-    color: white;
-    height: 5vh;
-    width: 6vw;
-    border-radius: 10px;
-    font-size: 2.35vh;
-    margin: 2vh;
-
+#home-btn:hover { 
+    color: aqua;
 }
-
-#add-btn {
-    position: relative;
-    right: 150px;
-}
-
-#add-btn i {
-    margin-right: 5px;
-}
-
-.text {
-    font-style: italic;
-    font-size: 2.7vh;
-}
-
-.search-cont {
-    margin: 2vh 8vw;
-}
-
-.search-box {
-    margin-right: 2vw;
-    height: 3vh;
-    width: 17vw;
-    border-radius: 4px;
-}
-
-#search-btn {
-    height: 4.5vh;
-}
-

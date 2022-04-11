@@ -1,8 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './add_contact.css';
 
 const Add_contact = () => {
   return (
-    <div>Add_contact</div>
+    <>
+      <h5 className='heading'>Create Contact</h5>
+      <div className="cont">
+        <form action="">
+          <input type="text" placeholder='Name' className='box' />
+          <input type="text" placeholder='Photo URL' className='box' />
+          <input type="text" placeholder='Mobile' className='box' />
+          <input type="text" placeholder='Email' className='box' />
+          <input type="text" placeholder='Address' className='box' />
+          <input type="text" placeholder='Company' className='box' />
+          <div className="sec-btns">
+            <button className='create-btn' typeof='submit'>Create</button>
+            <Link to={'/contacts/list'}><button className='close-btn'>Cancel</button></Link>
+          </div>
+        </form>
+      </div>
+
+    </>
   )
 }
 
