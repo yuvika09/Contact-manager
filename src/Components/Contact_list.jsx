@@ -20,8 +20,8 @@ const Contact_list = () => {
       <div className="big-cont">
 
         <div className="sm-cont">
-          <img src="https://i.pinimg.com/736x/7c/ee/6f/7cee6fa507169843e3430a90dd5377d4.jpg" alt="pp" />
-          <ul>
+          <img src="https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png" alt="pp" />
+          <ul> 
             <li>Name : <span className='detail'>Yuvika Singh</span></li>
             <li>Mobile : <span className='detail'>9236148929</span></li>
             <li>Email : <span className='detail'>yuvikasingh17@gmail.com</span></li>

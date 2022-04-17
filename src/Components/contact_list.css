@@ -29,7 +29,6 @@
     border-radius: 10px;
     font-size: 2.35vh;
     margin: 2vh;
-
 }
 
 #add-btn {
@@ -60,21 +59,24 @@
     margin: 2vh;
 }
 
-img {
+
+.sm-cont img {
     height: 27vh;
     width: 12vw;
     border: 1px solid black;
     border-radius: 30px;
 }
 
-ul {
+
+.sm-cont ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-li {
+
+.sm-cont li {
     padding: 1vh 0vw;
     font-size: 2.5vh;
     color: rgba(30, 30, 30, 0.703);

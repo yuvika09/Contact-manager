@@ -13,7 +13,7 @@ const Add_contact = () => {
           <input type="text" placeholder='Mobile' className='box' />
           <input type="text" placeholder='Email' className='box' />
           <input type="text" placeholder='Address' className='box' />
-          <input type="text" placeholder='Company' className='box' />
+          <input type="text" placeholder='Group' className='box' />
           <div className="sec-btns">
             <button className='create-btn' typeof='submit'>Create</button>
             <Link to={'/contacts/list'}><button className='close-btn'>Cancel</button></Link>
