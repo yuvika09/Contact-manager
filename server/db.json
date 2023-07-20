@@ -1,13 +1,46 @@
 {
-    "contacts" : [
+    "contacts": [
         {
-            "id" : "asdfh",
-            "name" : "Nikki Singh",
-            "photo" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fflat-business-man-user-profile-avatar-icon-vector-4333097&psig=AOvVaw0LQuYW33nIh3H_oSUg92ab&ust=1650033858579000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjP-aPlk_cCFQAAAAAdAAAAABAa",
-            "mobile" : "8736045713",
-            "email" : "yuvika2010022@akgec.ac.in",
-            "title" : "Software Engineer",
-            "group" : "1"
+            "id": "asdfh123",
+            "name": "Nikki Singh",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz5EWKDu-QHOR3ym0eWBSQenc69_kODInRA&usqp=CAU",
+            "mobile": "8736045713",
+            "email": "yuvika2010022@akgec.ac.in",
+            "address": "sharda nagar",
+            "title": "Software Engineer",
+            "group": "1"
+        },
+        {
+            "id": "asfrt723",
+            "name": "Yuvi Singh",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz5EWKDu-QHOR3ym0eWBSQenc69_kODInRA&usqp=CAU",
+            "mobile": "9236148929",
+            "email": "yuvikasin188@gamil.com",
+            "address": "kanpur",
+            "title": "Engineer",
+            "group": "2"
+        }
+    ],
+    "groups": [
+        {
+            "id": "1",
+            "name": "Colleague"
+        },
+        {
+            "id": "2",
+            "name": "Friend"
+        },
+        {
+            "id": "3",
+            "name": "Family"
+        },
+        {
+            "id": "4",
+            "name": "Social"
+        },
+        {
+            "id": "5",
+            "name": "Community"
         }
     ]
 }

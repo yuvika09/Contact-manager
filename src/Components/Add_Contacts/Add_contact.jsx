@@ -14,13 +14,15 @@ const Add_contact = () => {
           <input type="text" placeholder='Email' className='box' />
           <input type="text" placeholder='Address' className='box' />
           <input type="text" placeholder='Group' className='box' />
+          <select className='option'>
+            <option value="">Select a group</option>
+          </select>
           <div className="sec-btns">
             <button className='create-btn' typeof='submit'>Create</button>
             <Link to={'/contacts/list'}><button className='close-btn'>Cancel</button></Link>
           </div>
         </form>
       </div>
-
     </>
   )
 }

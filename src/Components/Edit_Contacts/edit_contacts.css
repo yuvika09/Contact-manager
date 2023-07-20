@@ -1,0 +1,17 @@
+.new-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-container img {
+    height: 27vh;
+    width: 12vw;
+    position: relative;
+    right: 28vw;
+    top: 8vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 1vh 2vw 1vh 0.5vw;
+    float: right;
+}

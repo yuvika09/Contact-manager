@@ -1,11 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ContactService from '../../Services/ContactService.jsx';
 import './contact_list.css';
 
 const Contact_list = () => {
+
+  const [details, setDetails] = useState({
+    loading: false,
+    contacts: [],
+    errorMessage: ''
+  });
+
+  useEffect(() => {
+    async function getData(){
+      try {
+        let res = await ContactService.getAllConts();
+        console.log(res.data);
+      }
+      catch (error) {
+        console.log(error);
+      }
+    }
+    getData();
+  }, [])
+
   return (
     <>
-    
       <div className="container">
         <p className='text'>Click the button to add new contact in the directory....</p>
         <Link to={'/contacts/add'}><button className='btn' id='add-btn'><i class="fa-solid fa-circle-plus"></i>Add</button></Link>
@@ -21,7 +41,7 @@ const Contact_list = () => {
 
         <div className="sm-cont">
           <img src="https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png" alt="pp" />
-          <ul> 
+          <ul>
             <li>Name : <span className='detail'>Yuvika Singh</span></li>
             <li>Mobile : <span className='detail'>9236148929</span></li>
             <li>Email : <span className='detail'>yuvikasingh17@gmail.com</span></li>

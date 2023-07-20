@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.box {
+.box, .option {
     margin: 1vh 9vw;
     width: 40vw;
     height: 3.5vh;
@@ -17,6 +17,11 @@
     background-color: rgba(0, 0, 0, 0.06);
     border: 0ch;
 
+}
+
+.option {
+    height: 5vh;
+    width: 41vw;
 }
 
 .sec-btns {

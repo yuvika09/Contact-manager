@@ -1,11 +1,10 @@
-
 import './App.css';
-import Add_contact from './Components/Add_contact';
-import Contact_list from './Components/Contact_list';
-import Edit_contact from './Components/Edit_contact';
-import Navbar from './Components/Navbar';
-import View_contact from './Components/View_contact';
 import { Route, Routes, Navigate } from 'react-router-dom'
+import Add_contact from './Components/Add_Contacts/Add_contact';
+import Edit_contact from './Components/Edit_Contacts/Edit_contact';
+import Navbar from './Components/NavBar/Navbar';
+import Contact_list from './Components/Contacts_List/Contact_list';
+import View_contact from './Components/View_Contacts/View_contact';
 
 function App() {
   return (
@@ -20,6 +19,6 @@ function App() {
       </Routes>
     </>
   );
-}
+} 
 
 export default App;
